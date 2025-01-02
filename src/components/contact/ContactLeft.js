@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaFacebook,FaTwitter,FaLinkedin } from "react-icons/fa";
 import { contactImg } from "../../assets";
 import ContactIcon from './ContactIcon';
 

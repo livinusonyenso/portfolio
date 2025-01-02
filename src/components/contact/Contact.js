@@ -33,7 +33,23 @@ function Contact() {
       setErrMsg("subject is required!");
     } else if (message === "") {
       setErrMsg("message is required!");
-    } else {
+      return;
+    } 
+    const whatsappMessage = `Hello, my name is ${userName}.
+    Phone Number: ${phoneNumber}
+    Email: ${email}
+    Subject: ${subject}
+    Message: ${message}`;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+  // WhatsApp number
+  const whatsappNumber = "2348139422159"; // Use Nigerian format without the leading zero
+
+  // Redirect to WhatsApp
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  window.open(whatsappURL, "_blank");
+
       setSucessMsg(`Thank you dear ${userName},message has been sent succesfully`);
       setErrMsg("");
       setUserName("");
@@ -41,7 +57,7 @@ function Contact() {
       setMessage("");
       setSubject("");
       setPhoneNumber("");
-    }
+    
     console.log(userName, phoneNumber, email, message, subject);
   };
   return (
