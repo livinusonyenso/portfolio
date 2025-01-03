@@ -6,7 +6,8 @@ function Banners() {
   return (
     <section
       id="home"
-      className="w-full py-5 flex items-center border-b-[1px] font-titleFont border-b-black"
+      className="w-full flex items-center border-b-[1px] font-titleFont border-b-black"
+      style={{ height: "90vh", margin: "0" }}
     >
       <LeftBanner />
 
@@ -17,7 +18,10 @@ function Banners() {
           src={bannerImg2}
           alt="bannerImg"
         />
-        <div className="absolute buttom-o w-[500] h-[500] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+        <div className="absolute buttom-o w-[500] h-[500]
+         bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center">
+
+         </div>
       </div>
     </section>
   );
