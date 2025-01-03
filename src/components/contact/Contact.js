@@ -23,34 +23,49 @@ function Contact() {
 
     if (userName === "") {
       setErrMsg("userName is required!");
+      return;
     } else if (phoneNumber === "") {
       setErrMsg("phoneNumber is required!");
+      return;
     } else if (email === "") {
       setErrMsg("email is required!");
+      return;
     } else if (!emailVadlidation(email)) {
       setErrMsg("please put a valid email!");
+      return;
     } else if (subject === "") {
       setErrMsg("subject is required!");
+      return;
     } else if (message === "") {
       setErrMsg("message is required!");
       return;
     } 
-    const whatsappMessage = `Hello, my name is ${userName}.
-    Phone Number: ${phoneNumber}
-    Email: ${email}
-    Subject: ${subject}
-    Message: ${message}`;
+    setErrMsg("");
+    
+    setTimeout(() =>{
+      const whatsappMessage = `Hello, my name is ${userName}.
+      Phone Number: ${phoneNumber}
+      Email: ${email}
+      Subject: ${subject}
+      Message: ${message}`;
+  
+      const encodedMessage = encodeURIComponent(whatsappMessage);
+  
+    
+    const whatsappNumber = "2348139422159"; 
+  
+   
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, "_blank");
+    setSucessMsg("");
 
-    const encodedMessage = encodeURIComponent(whatsappMessage);
+    },2000)
 
-  // WhatsApp number
-  const whatsappNumber = "2348139422159"; // Use Nigerian format without the leading zero
-
-  // Redirect to WhatsApp
-  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-  window.open(whatsappURL, "_blank");
-
+   
       setSucessMsg(`Thank you dear ${userName},message has been sent succesfully`);
+
+
+    
       setErrMsg("");
       setUserName("");
       setEmail("");
@@ -59,6 +74,7 @@ function Contact() {
       setPhoneNumber("");
     
     console.log(userName, phoneNumber, email, message, subject);
+  
   };
   return (
     <section id="contact" className="w-full p-20 border-b-[1px] border-b-black">
