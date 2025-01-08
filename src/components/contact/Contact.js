@@ -39,42 +39,37 @@ function Contact() {
     } else if (message === "") {
       setErrMsg("message is required!");
       return;
-    } 
+    }
     setErrMsg("");
-    
-    setTimeout(() =>{
+
+    setTimeout(() => {
       const whatsappMessage = `Hello, my name is ${userName}.
       Phone Number: ${phoneNumber}
       Email: ${email}
       Subject: ${subject}
       Message: ${message}`;
-  
+
       const encodedMessage = encodeURIComponent(whatsappMessage);
-  
-    
-    const whatsappNumber = "2348139422159"; 
-  
-   
-    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-    setSucessMsg("");
 
-    },2000)
+      const whatsappNumber = "2348139422159";
 
-   
-      setSucessMsg(`Thank you dear ${userName},message has been sent succesfully`);
+      const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      window.open(whatsappURL, "_blank");
+      setSucessMsg("");
+    }, 2000);
 
+    setSucessMsg(
+      `Thank you dear ${userName},message has been sent succesfully`
+    );
 
-    
-      setErrMsg("");
-      setUserName("");
-      setEmail("");
-      setMessage("");
-      setSubject("");
-      setPhoneNumber("");
-    
+    setErrMsg("");
+    setUserName("");
+    setEmail("");
+    setMessage("");
+    setSubject("");
+    setPhoneNumber("");
+
     console.log(userName, phoneNumber, email, message, subject);
-  
   };
   return (
     <section id="contact" className="w-full p-20 border-b-[1px] border-b-black">
@@ -82,14 +77,14 @@ function Contact() {
         <Title title="Contact" des="Connect With Me" />
       </div>
       <div className="w-full ">
-        <div className="w-full h-auto  flex justify-between">
+        <div className="w-full h-auto  flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div
-            className="w-[60%] h-full p-5 bg-gradient-to-r from-[#1e202024] to-[#23272b] 
+            className="w-full lgl:w-[60%] h-full p-5 bg-gradient-to-r from-[#1e202024] to-[#23272b] 
             flex flex-col justify-center
           gap-8 rounded-lg shadow-shadowOne"
           >
-            <form className="w-full flex flex-col gap-6 py-5">
+            <form className="w-full flex flex-col gap-2 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
                 <p
                   className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] 
@@ -108,7 +103,7 @@ function Contact() {
                 </p>
               )}
 
-              <div className="w-full flex gap-10">
+              <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-1/2 flex flex-col gap-4">
                   <p className="text-sm uppercase text-gray-400 tracking-wide">
                     Your name
@@ -116,7 +111,10 @@ function Contact() {
                   <input
                     onChange={(e) => setUserName(e.target.value)}
                     value={userName}
-                    className={`${errMsg === 'userName is required!' && 'outline-designColor' }  contactInput`}
+                    className={`${
+                      errMsg === "userName is required!" &&
+                      "outline-designColor"
+                    }  contactInput`}
                     type="text"
                   />
                 </div>
@@ -127,7 +125,10 @@ function Contact() {
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
-                    className={`${errMsg === 'phoneNumber is required!' && 'outline-designColor' }  contactInput`}
+                    className={`${
+                      errMsg === "phoneNumber is required!" &&
+                      "outline-designColor"
+                    }  contactInput`}
                     type="text"
                   />
                 </div>
@@ -139,7 +140,9 @@ function Contact() {
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
-                  className={`${errMsg === 'email is required!' && 'outline-designColor' }  contactInput`}
+                  className={`${
+                    errMsg === "email is required!" && "outline-designColor"
+                  }  contactInput`}
                   type="email"
                 />
               </div>
@@ -150,7 +153,9 @@ function Contact() {
                 <input
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
-                  className={`${errMsg === 'subject is required!' && 'outline-designColor' }  contactInput`}
+                  className={`${
+                    errMsg === "subject is required!" && "outline-designColor"
+                  }  contactInput`}
                   type="text"
                 />
               </div>
@@ -161,7 +166,9 @@ function Contact() {
                 <textarea
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
-                  className={`${errMsg === 'message is required!' && 'outline-designColor' }  contactTextArea`}
+                  className={`${
+                    errMsg === "message is required!" && "outline-designColor"
+                  }  contactTextArea`}
                   cols="30"
                   rows="8"
                 ></textarea>

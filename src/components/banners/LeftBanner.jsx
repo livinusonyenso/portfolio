@@ -2,6 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import ContactIcon from "../contact/ContactIcon";
 
 function LeftBanner() {
   const [text] = useTypewriter({
@@ -20,7 +21,7 @@ function LeftBanner() {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-1/2 flex flex-col gap-10">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-10">
       <div className="flex flex-col gap-5 ">
         <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-3xl font-bold text-white">
@@ -28,7 +29,7 @@ function LeftBanner() {
           <span className="text-designColor capitalize">LIVINUS EKENE</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          a <span className="inline-block min-w-[250px]">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -43,20 +44,12 @@ function LeftBanner() {
         </p>
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex flex-col xl:flex-row gap-6 xl:gap-0 justify-between">
         <div>
           {" "}
           <h2 className="text-base uppercase font-titleFont mb-4">Find me</h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebook />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedin />
-            </span>
+            <ContactIcon/>
           </div>
         </div>
         <div>

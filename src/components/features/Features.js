@@ -25,7 +25,7 @@ function Features() {
       ">
 
       </div> */}
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Business Strategy"
           des="Develop and implement effective strategies to grow businesses and achieve organizational goals."

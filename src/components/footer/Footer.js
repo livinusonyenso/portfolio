@@ -4,7 +4,7 @@ import ContactIcon from "../contact/ContactIcon";
 
 function Footer() {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-4 gap-8">
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col items-center gap-8 ">
         <img src={logo} alt="logo" />
         <ContactIcon />

@@ -19,7 +19,7 @@ function Project() {
       </div>
 
       {/* Project Cards */}
-      <div className='w-full grid grid-cols-3 gap-14'>
+      <div className='w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjrctCards
           title='SOCIAL MEDIA CLONE'
           des='A clone of popular social media platforms with modern features.'

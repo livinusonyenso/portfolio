@@ -24,9 +24,13 @@ function ProjectCards({ title, des, src }) {
 
           {/* Icons section */}
           <div className="flex gap-2">
+            <a href='https://github.com/livinusonyenso' target='_blank' rel="noopener noreferrer">
             <span className="text-lg w-8 h-8 rounded-full bg-black inline-flex justify-center items-center text-gray-500 hover:text-designColor duration-500 cursor-pointer">
-              <BsGithub />
+            <BsGithub />
             </span>
+                           </a>
+           
+            
             <span className="text-lg w-8 h-8 rounded-full bg-black inline-flex justify-center items-center text-gray-500 hover:text-designColor duration-500 cursor-pointer">
               <FaGlobe />
             </span>

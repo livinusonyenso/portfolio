@@ -7,7 +7,7 @@ function Title({title,des}) {
         <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
           {title}
         </h3>
-        <h1 className="text-5xl text-gray-300 font-bold capitalise">
+        <h1 className="text-xl md:text-5xl text-gray-300 font-bold capitalise">
         {des}
         </h1>
       </div>

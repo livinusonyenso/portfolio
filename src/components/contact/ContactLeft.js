@@ -6,7 +6,8 @@ import ContactIcon from './ContactIcon';
 function ContactLeft() {
   return (
     <div
-    className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23242b] shadow-shadowOne p-8 rounded-lg
+    className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23242b] 
+    shadow-shadowOne p-4 lgl:p-8 rounded-lg
    flex flex-col gap-8 justify-center"
   >
     <img

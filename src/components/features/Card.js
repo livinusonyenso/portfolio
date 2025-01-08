@@ -8,11 +8,11 @@ function Card({ title, des, icon: Icon }) {
     group bg-gradient-to-b hover:from-black hover:to-[#1e2023] transition-colors duration-300 grpup
     "
     >
-      <div className="h-72 overflow-y-hidden">
+      <div className="h-82 overflow-y-hidden">
         <div className="flex flex-col h-full gap-6 translate-y-10 group-hover:translate-y-0 transition-transform duration-300">
           <span className="text-5xl text-designColor">{Icon && <Icon />}</span>
 
-          <h2 className="text-2xl font-titleFont font-bold text-gray-300">
+          <h2 className="text-xl md :text-2xl font-titleFont font-bold text-gray-300">
             {" "}
             {title}
           </h2>
