@@ -17,7 +17,7 @@ function Features() {
   return (
     <section
       id="features"
-      className="w-full  py-20  border-b-[1px] border-b-black"
+      className="w-full  py-20 sm:pt-[350px]  md:pt-[200px] border-b-[1px] border-b-black"
     >
       <Title title="Features" des="What i do" />
       {/* <div className="w-1/2 px12  py-10 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor t0-[#202327]

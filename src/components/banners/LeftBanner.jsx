@@ -1,6 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebook, FaTwitter, FaLinkedin, FaReact } from "react-icons/fa";
+import {  FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import ContactIcon from "../contact/ContactIcon";
 
@@ -29,12 +29,15 @@ function LeftBanner() {
           <span className="text-designColor capitalize">LIVINUS EKENE</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span className="inline-block min-w-[250px]">{text}</span>
+          <div className="w-[100%] h-[100%] flex items-center">
+          <span className="inline-block min-w-[250px] sm:text-[23px] lgl:text-[25px]">a {text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
           />
+          </div>
+         
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           Livinus is a passionate Frontend Developer with a strong foundation in
