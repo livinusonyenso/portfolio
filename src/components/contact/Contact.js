@@ -72,7 +72,7 @@ function Contact() {
     console.log(userName, phoneNumber, email, message, subject);
   };
   return (
-    <section id="contact" className="w-full p-20 border-b-[1px] border-b-black">
+    <section id="contact" className="w-full p-5 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="Contact" des="Connect With Me" />
       </div>
@@ -104,7 +104,7 @@ function Contact() {
               )}
 
               <div className="w-full flex flex-col lgl:flex-row gap-10">
-                <div className="w-1/2 flex flex-col gap-4">
+                <div className="w-1/2 flex flex-col gap-4 sm:flex-row sm:w-full">
                   <p className="text-sm uppercase text-gray-400 tracking-wide">
                     Your name
                   </p>
@@ -118,7 +118,7 @@ function Contact() {
                     type="text"
                   />
                 </div>
-                <div className="w-1/2 flex flex-col gap-4">
+                <div className="w-1/2 flex flex-col gap-4 sm:flex-row sm:w-full">
                   <p className="text-sm uppercase text-gray-400 tracking-wide">
                     phone number
                   </p>
@@ -132,6 +132,7 @@ function Contact() {
                     type="text"
                   />
                 </div>
+
               </div>
               <div className="w-full flex flex-col gap-4">
                 <p className="text-sm uppercase text-gray-400 tracking-wide">

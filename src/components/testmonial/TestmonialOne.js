@@ -11,7 +11,8 @@ function TestmonialOne() {
             flex flex-col md:flex-row lgl:flex-col justify-center md:justify-start lgl:justify-center gap-2"
             >
               <img
-                className="w-full h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                className="w-full h-72 md:h-32 md:50 sm:w-[100%] lgl:h-72 rounded-lg object-cover"
+                
                 src={bannerImg2}
                 alt="bannerImg2"
               />

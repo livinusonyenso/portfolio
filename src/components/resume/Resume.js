@@ -14,7 +14,7 @@ function Resume({title,subtitle,result,des}) {
   return (
     <section
     id='resume'
-    className='w-full p-20 border-b-[1px] border-b-black'>
+    className='w-full p-8 border-b-[1px] border-b-black'>
 
 <div className='flex justify-center items-center text-center'>
         <Title
@@ -23,7 +23,7 @@ function Resume({title,subtitle,result,des}) {
         />
     </div>
     <div>
-        <ul className='grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
+        <ul className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 lgl:grid-cols-4 gap-4"'>
             <li className={`${educationData ? 'border-designColor rounded-r-lg' : 'border-transparent'} resumli`} 
             onClick={() => 
               seteducationData(true) &

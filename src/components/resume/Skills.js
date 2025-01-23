@@ -75,10 +75,6 @@ function Skills() {
      </div>
 
 
-
-
-
-
    
      <div className='w-full lgl:w-1/2'>
      <div className='font-titleFont py-12'>

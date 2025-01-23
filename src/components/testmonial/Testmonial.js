@@ -82,7 +82,7 @@ function Testmonial() {
   };
 
   return (
-    <section id="testimonial" className="w-full p-20 border-b-[1px] border-b-black">
+    <section id="testimonial" className="w-full p-10 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENT SAY" des="Testmonial" />
       </div>
@@ -138,7 +138,9 @@ function Testmonial() {
               </div>
             </div>
           </div> */}
+          {/* <TestmonialOne/> */}
           <TestmonialOne/>
+
           <TestmonialTwo/>
           <TestmonialOne/>
          

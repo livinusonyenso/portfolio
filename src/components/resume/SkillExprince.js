@@ -14,8 +14,7 @@ function SkillExprince() {
        animate={{x: 0,opacity : 1}}
        transition={{durration:0.5,delay:0.5}}
        
-       className='w-full h-full bg-gradient-to-r from-blue-600 via-pink-500
-       to-red-500 rounded-md relative'>
+       className='w-full h-full bg-gradient-to-r from-blue-600   to-red-500 via-pink-500/30 rounded-md relative'>
          <span className='absolute -top-7 right-0'>100%</span>
        </motion.span>
      </span>

@@ -8,7 +8,7 @@ function Project() {
   return (
     <section
       id='project'
-      className='w-full p-20 border-b-[1px] border-b-black'
+      className='w-full lgl:p-2 border-b-[1px] border-b-black'
     >
       {/* Section Title */}
       <div className='flex justify-center items-center text-center'>
@@ -19,7 +19,7 @@ function Project() {
       </div>
 
       {/* Project Cards */}
-      <div className='w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
+      <div className='w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 flex flex-col justify-center items-center'>
         <ProjrctCards
           title='SOCIAL MEDIA CLONE'
           des='A clone of popular social media platforms with modern features.'

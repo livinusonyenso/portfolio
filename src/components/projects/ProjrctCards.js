@@ -4,12 +4,12 @@ import { FaGlobe } from "react-icons/fa";
 
 function ProjectCards({ title, des, src }) {
   return (
-    <div className="w-full h-auto px-6 py-8 rounded-lg shadow-shadowOne flex flex-col 
+    <div className="w-full lgl:w-[70%] lgl:object-cover h-auto px-6 py-8 rounded-lg shadow-shadowOne flex flex-col  justify-center items-center
       bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b 
       hover:from-gray-900 hover:to-gray-900 transition-colors duration-1000">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
         <img
-          className="w-full h-full object-cover group-hover:scale-110 duration-300"
+          className="w-full lgl:w-[100] h-full object-cover group-hover:scale-110 duration-300"
           src={src}
           alt=""
         />

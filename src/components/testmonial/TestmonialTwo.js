@@ -7,7 +7,8 @@ function TestmonialTwo() {
     <div className="w-full">
          <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
            <div
-             className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23242b] shadow-shadowOne p-8 rounded-lg
+             className="w-full lgl:w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23242b]
+              shadow-shadowOne p-8  rounded-lg
            flex flex-col md:flex-row lgl:flex-col justify-center md:justify-start lgl:justify-center gap-2"
            >
              <img

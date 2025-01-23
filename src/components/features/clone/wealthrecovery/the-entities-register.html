@@ -1,0 +1,2149 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]--><!--[if IE 9]>         <html class="no-js lt-ie10 gt-ie8"> <![endif]--><!--[if gt IE 9]><!--><html class="no-js gt-ie8"><!--<![endif]--><head>
+
+
+	
+		<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+
+
+		<script type="text/javascript">
+			var config = {
+				// Core configuration
+				apiKey: 'a84ed344c85efe5501eb5ff90e9317e3fe89e564',
+				product: 'PRO_MULTISITE',
+
+				// Controlling use of cookies
+				necessaryCookies: ["OGPC","__atuvc","VID","UserMatchHistory","CONSENT","CookieControl","_PRESIDE_LANGUAGE","cf*","_gid","li_sugr","__atuvs","lang","remote_sid","JSESSIONID","DEFAULTLOCALE","rc::c","PRESIDESHOPPINGCARTSESSION","_ga","uid","__cfduid","DSID","lidc","_stid*","YSC","VISITOR_INFO1_LIVE","PSID","_cf*","_gat","PRESIDEARTICLEACCESSLIMIT","test_cookie"],
+				optionalCookies: [
+					
+
+	
+		
+		{
+			name : 'Analytics',
+			label: 'Analytics Cookies',
+			description: 'Analytical cookies help website owners understand how visitors interact with websites by collecting and reporting information anonymously.',
+			cookies: ["_dc_gtm_UA*","_gat_gtag_UA_*","_gat_UA-*","_mkto_trk","collect","GPS","IDE","MR","MR2","mus","PREF"],
+			recommendedState: true,
+			lawfulBasis: 'consent',
+			onAccept: function(){
+				(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCCS27Z');
+
+// Include the <noscript> element
+var gaTagWrap    = document.createElement('noscript');
+    gaTagWrap.id ='civic-gtm-noscript';
+var gaTagMan     = document.createElement('iframe');
+
+gaTagMan.src   = 'https://www.googletagmanager.com/ns.html?id=GTM-PCCS27Z';
+gaTagMan.style = 'width:0;height:0;display:none;visibility:hidden';
+gaTagWrap.appendChild(gaTagMan);
+
+document.body.insertAdjacentElement("afterBegin", gaTagWrap );
+			},
+			onRevoke: function(){
+				// START remove Google tag manager script
+var gtmTag = document.getElementById('civic-gtm-noscript');
+    gtmTag.remove();
+// END remove Google tag manager script
+			},
+			thirdPartyCookies: []
+		}
+		,
+	
+		
+		{
+			name : 'Marketing',
+			label: 'Marketing Cookies',
+			description: 'Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.',
+			cookies: ["1P_JAR","__atrfs","__Secure-*","_fbp","_gcl_au","_uetsid","_uetvid","_vwo_uuid_v2","ANID","APISID","bcookie","bscookie","fr","gt","guest_id","HSID","lissc","loc","LOGIN_INFO","metrics_token","MUID","na_id","na_tc","ouid","personalization_id","SAPISID","SID","SIDCC","ssc","SSID","tfw_exp","uvc","xtc","'_stid'","'_stidv'","'_vwo_uuid_v2'"],
+			recommendedState: true,
+			lawfulBasis: 'consent',
+			onAccept: function(){
+				// Add shareThis
+if (document.body.classList.contains('include-share-widget') ) { 
+   var shareThisScriptTag = document.createElement('script');
+   shareThisScriptTag.id = 'civic-sharethis-script';
+   shareThisScriptTag.async = 'async';
+   shareThisScriptTag.src = 'https://platform-api.sharethis.com/js/sharethis.js#property=655359c81740c700191b70db&product=sticky-share-buttons';
+   document.body.appendChild(shareThisScriptTag);
+}
+// End shareThis
+			},
+			onRevoke: function(){
+				// remove shareThis
+if (document.body.classList.contains('include-share-widget') ) { 
+    var shareThisScriptTag = document.getElementById('civic-sharethis-script');
+    shareThisScriptTag.remove();
+
+    var shareWidget = document.getElementsByClassName("st-sticky-share-buttons");
+    for(var i = 0; i < shareWidget.length; i++)
+    {
+        if ( !shareWidget[i].classList.contains( 'hide' ) ) 
+        {
+            shareWidget[i].className += " hide";
+        }
+    }
+}
+// End shareThis
+			},
+			thirdPartyCookies: [{"name":"Sharethis","optOutLink":"https://sharethis.com/privacy/"}]
+		}
+		
+	
+
+				],    // Array of objects based on CookieCategory object
+				consentCookieExpiry: 90,
+
+				
+					statement : {
+						  description: ''
+						, name: 'Cookie Statement'
+						, url: 'https://www.barstandardsboard.org.uk/cookies-statement.html'
+						, updated: '29/12/2022'
+					},
+				
+
+				logConsent: true,
+				encodeCookie: true,
+				
+					sameSiteCookie: true,
+					sameSiteValue: "Strict",
+					closeOnGlobalChange: true,
+				
+				subDomains: true,
+
+				// Customizing appearance and behaviour
+				initialState: "NOTIFY",
+				notifyOnce: false,
+				rejectButton: false,
+				layout: "SLIDEOUT",
+				position: "LEFT",
+				theme: "DARK",
+				toggleType: "slider",
+				closeStyle: "icon",
+				
+					notifyDismissButton: true,
+				
+				settingsStyle: "button",
+				
+					acceptBehaviour: "recommended",
+				
+
+				
+
+				text : {
+					title: 'This site uses cookies to store information on your computer.'
+					
+					, acceptRecommended    : 'Accept recommended settings'
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				},
+
+				
+				branding : {
+					  fontFamily       : 'Arial, sans serif'
+					
+					
+					
+					
+					
+					
+					
+					, acceptBackground : '#5a447a'
+					
+						
+						
+					
+					
+					, toggleColor      : '#fbdb42'
+					, toggleBackground : '#5a447a'
+					
+					, alertBackground  : '#5a447a'
+					
+					, buttonIconWidth  : '64px'
+					, buttonIconHeight : '64px'
+					, removeIcon       : false
+					, removeAbout      : true
+				},
+				
+
+				
+					excludedCountries: [],
+
+					
+						locale: "undefined" != typeof window ? window.navigator.language : "en",
+					
+				locales: [
+					
+				],
+				
+
+				accessibility: {
+					accessKey: '',
+					highlightFocus: false
+				}
+			};
+
+			CookieControl.load( config );
+
+			var onPageStyle = "";
+			
+			if ( onPageStyle.length ) {
+				var style       = document.createElement('style');
+				style.innerHTML = onPageStyle;
+				document.head.appendChild( style );
+			}
+		</script>
+	
+
+		
+
+
+
+
+	<title>Register of BSB entities</title>
+
+	
+
+	
+
+	
+		<meta name="author" content="The Bar Standards Board">
+	
+
+	
+
+	<meta name="robots" content="index,follow">
+
+	
+
+
+	<meta property="og:title" content="Register of BSB entities">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/the-entities-register.html"> 
+	
+		<meta property="og:description" content="From this page, you can download a register of the specialist legal services businesses which we regulate.">
+	
+	
+
+
+
+
+		<meta charset="utf-8">
+		<!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://use.typekit.net/ydb1jjm.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/core/_9c7be386.core.min.css">
+
+		
+
+		<!-- Google Tag Manager -->
+		
+		<!-- End Google Tag Manager -->
+	</head>
+
+	<body class=" include-share-widget" data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+		<div class="page-wrapper">
+			
+
+
+	<div class="menu-overlay"></div>
+	<div class="top-head bg-primary hidden-xs hidden-sm">
+		<div class="container">
+			<nav class="top-nav" role="navigation">
+				
+
+
+	<ul class="list-unstyled">
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record.html" title="Search a barrister's record">Search a barrister's record</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns.html" title="Report a concern">Report a concern</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/contact-us.html" title="Contact us">Contact us</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/asset/B3CBC808%2DCB66%2D4E04%2DA7BB149B9B8A7F31/" title="Make a Payment">Make a Payment</a></li>
+		
+			<li>
+
+<a href="https://www.mybar.org.uk/login.html" title="My Bar" target="_blank">My Bar</a></li>
+		
+			<li>
+
+<a href="https://www.legalchoices.org.uk/" title="Legal Choices" target="_blank">Legal Choices</a></li>
+		
+
+		<li class="mod-search">
+			<div class="searh-form">
+				<form action="https://www.barstandardsboard.org.uk/page-types/site_search/searchSite/">
+					<input type="hidden" name="header" value="1">
+					<input type="text" name="q" placeholder="Search here...">
+
+					<div class="search-close">×</div>
+					<button class="search-btn" type="submit"><span class="font-icon-search"></span></button>
+				</form>
+			</div>
+			<a href="" class="search-open-btn"><span class="font-icon-search"></span></a>
+		</li>
+		
+			<li><a href="#reciteme-launch" class="reciteme">Accessibility</a></li>
+		
+	</ul>
+
+			</nav>
+		</div>
+	</div>
+
+	<header id="masthead" class="site-head">
+
+		<div class="container">
+
+			<div class="visible-xs visible-sm">
+				<a class="js-menu-trigger menu-trigger">
+					<span class="hamburger">
+					</span>
+					Menu
+				</a>
+			</div>
+
+			<div class="site-head-logo"><a href="/"><img src="/assets/img/BSB-logo.svg" alt=""></a></div>
+			<div class="main-nav">
+				<form action="https://www.barstandardsboard.org.uk/page-types/site_search/searchSite/" class="hidden-md hidden-lg">
+					<input type="hidden" name="header" value="1">
+					<div class="form-search">
+						<div class="input-group mb-20">
+							<input type="text" name="q" class="form-control" placeholder="Search here..." aria-label="Search here..." aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<button type="submit"></button>
+							</div>
+						</div>
+					</div>
+				</form>
+
+				<nav class="site-head-nav" role="navigation">
+					<ul>
+						
+
+
+	
+		
+
+		
+		<li class="site-head-nav-dropdown is-active has-submenu js-subnav-menu">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public.html">For the public</a>
+			
+				<ul class="site-head-subnav">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/about-barristers.html">Information about barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister.html">Finding and using a barrister</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/when-you-might-need-a-barrister.html">When you might need a barrister</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/how-to-choose-and-find-a-barrister.html">Choosing and finding a barrister</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/how-to-instruct-a-barrister.html">How to instruct a barrister</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/what-to-expect.html">What to expect from your barrister</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/barristers-fees.html">Barristers and their fees </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/if-something-goes-wrong.html">If something goes wrong</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/finding-and-using-a-barrister/leaving-feedback-about-barristers-services.html">Leaving feedback about barristers' services</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/info-for-people-representing-themselves-in-court.html">Information for people representing themselves in court</a>
+			
+		</li>
+	
+		
+
+		
+		<li class=" is-active has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record.html">Search a barrister's record</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/the-barristers-register.html">The Barristers' Register</a>
+			
+		</li>
+	
+		
+
+		
+		<li class=" is-active ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/the-entities-register.html">Register of BSB entities</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/past-disciplinary-findings.html">Past disciplinary findings</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/interim-suspended-barristers.html">Interim suspended barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record/disqualified-persons.html">Disqualified persons</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/list-of-licences-for-instructing-barristers.html">List of licences for instructing barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns.html">Reporting concerns about barristers</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns/unhappy-with-the-outcome-of-your-report.html">Unhappy with the outcome of your report?</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns/our-independent-reviewer.html">Our Independent Reviewers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns/anti-money-laundering-hotline.html">Contacting us with a concern about Money Laundering</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-the-public/subscribe-to-receive-consumer-news.html">Subscribe to receive Consumer News</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="site-head-nav-dropdown  has-submenu js-subnav-menu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers.html">For barristers &amp; legal professionals</a>
+			
+				<ul class="site-head-subnav">
+					
+
+
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-handbook-and-code-guidance.html">BSB Handbook and Code Guidance</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-handbook-and-code-guidance/the-bsb-handbook.html">The BSB Handbook</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-handbook-and-code-guidance/code.html">Code Guidance</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-handbook-and-code-guidance/waivers-and-exemptions-from-rules.html">Waivers and exemptions from rules</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-handbook-and-code-guidance/information-about-the-uks-exit-from-the-eu.html">Information about the UK's exit from the European Union</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations.html">Compliance with your obligations</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/the-core-duties.html">The Core Duties</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/what-do-i-have-to-report-or-tell-to-the-bsb.html">What do I have to report to, or tell, the BSB?</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/professional-indemnity-insurance.html">Professional indemnity insurance</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/anti-money-laundering-counter-terrorist-financing.html">Anti-money laundering &amp; counter-terrorist financing</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/equality-and-diversity-rules.html">Equality and Diversity rules</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/transparency-rules.html">Transparency rules</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/sanctions.html">Sanctions</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/certificates-of-good-standing.html">Certificates of Good Standing</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/compliance-with-your-obligations/digital-comparison-tool-dct-market-study.html">Digital comparison tool (DCT) market study</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/resources-for-the-bar.html">Our resources for the Bar</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/resources-for-the-bar/resources-for-practising-in-the-coroners-courts.html">Resources for those practising in the Coroners' Courts</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/authorisation-to-practise.html">Authorisation to Practise (ATP)</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd.html">CPD - Continuing Professional Development Guidance</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/cpd-templates-and-examples.html">CPD Templates and Examples</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/cpd-extensions-and-waivers.html">CPD Extensions, Exemptions, and Waivers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/cpd-and-extended-leave.html">CPD and Extended Leave</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/cpd-supervision-and-enforcement.html">CPD Supervision and Enforcement</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/guidance-for-chambers-and-employers.html">CPD Guidance for Chambers and Employers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/cpd/cpd-case-studies.html">CPD Good Practice Case Studies</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/qualified-person-requirements.html">Qualified Person requirements</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/qualified-person-requirements/qualified-person-requirements-guidance.html">Qualified Person requirements: Guidance and applications</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/conducting-litigation.html">Conducting litigation</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/conducting-litigation/conducting-litigation-guidance-and-applications.html">Conducting litigation: Guidance and applications</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/public-and-licensed-access.html">Public &amp; Licensed Access schemes</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/public-and-licensed-access/public-access-training-and-guidance.html">Public Access training and guidance</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/public-and-licensed-access/public-access-exemption-guidance-and-applications.html">Public Access exemption guidance and applications</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/public-and-licensed-access/licensed-access-recognition-regulations.html">Licensed Access Recognition Regulations</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/public-and-licensed-access/licensed-access-guidance-and-applications.html">Licensed Access guidance and applications</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities.html">BSB entities</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/what-bsb-entities-can-and-cannot-do.html">What BSB entities can and cannot do</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/how-to-apply-and-the-entity-application-process.html">How to apply and the BSB entity application process</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/insurance-for-bsb-entities.html">Insurance for BSB entities</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/fees-and-charges-for-bsb-entities.html">Fees and charges for BSB entities</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/after-an-authorisation-decision-has-been-made.html">After an entity authorisation decision has been made</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/bsb-entities-glossary-of-terms.html">BSB entities: Glossary of terms</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/bsb-entities/entity-regulation-policy-statement.html">Entity Regulation Policy Statement</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/supervision.html">Supervision</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/supervision/supervision-strategy.html">Supervision Strategy and Framework</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/supervision/regulatory-return-2020.html">Regulatory Return 2020</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/reporting-serious-misconduct.html">Reporting serious misconduct</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/what-we-do-if-we-investigate-a-concern-about-you.html">What we do if we investigate a concern reported about you</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/regulatory-updates.html">Our monthly Regulatory Updates</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/for-barristers/regulatory-updates/subscribe-to-regulatory-update.html">Subscribe to Regulatory Update</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="site-head-nav-dropdown  has-submenu js-subnav-menu">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification.html">Training &amp; qualification</a>
+			
+				<ul class="site-head-subnav">
+					
+
+
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister.html">Becoming a barrister: an overview</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/bar-training-who-does-what.html">Bar training: who does what</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/academic-component.html">Academic component of Bar training</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/joining-an-inn.html">Joining an Inn</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/vocational-component.html">Vocational component of Bar training</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/pupillage-component.html">Pupillage / work-based learning component of Bar training</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/transitional-arrangements.html">Transitional arrangements: BPTC students</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/becoming-a-barrister/transferring-lawyers.html">Transferring lawyers</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/the-professional-statement.html">The Professional Statement</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/curriculum-and-assessment-strategy.html">Curriculum and Assessment Strategy</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/curriculum-and-assessment-strategy/advocacy-course-provider-applications.html">Advocacy course provider applications</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/the-authorisation-framework.html">Authorisation Framework</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/information-for-aetos-vbt.html">Our information for vocational Bar training providers (AETOs)</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/information-for-aetos-vbt/guidance-for-orgs-providing-vocational-training.html">Guidance for organisations intending to provide vocational Bar training </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/information-for-aetos-vbt/mybar-guidance-for-vbt-providers-and-students.html">MyBar guidance for vocational Bar training providers and students</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/our-information-for-pupillage-providers-aetos.html">Our information for pupillage providers (AETOs)</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/our-information-for-pupillage-providers-aetos/guidance-for-orgs-providing-wbl-training.html">Guidance for organisations intending to provide work-based learning Bar training (pupillage)</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/our-information-for-pupillage-providers-aetos/employed-bar-pupillage-provider-guidance.html">Employed Bar pupillage provider guidance</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/our-information-for-pupillage-providers-aetos/aeto-transition-for-existing-pupillage-providers.html">AETO transition for existing pupillage providers</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/bar-qualification-manual-new.html">The Bar Qualification Manual</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/barrister-training-waivers-and-exemptions.html">Barrister training: waivers &amp; exemptions</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/training-qualification/upcoming-changes-to-pupillage-courses.html">Upcoming changes to pupillage courses</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="site-head-nav-dropdown  has-submenu js-subnav-menu">
+			<a href="https://www.barstandardsboard.org.uk/news-publications.html">News &amp; publications</a>
+			
+				<ul class="site-head-subnav">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/press-releases.html">Press releases, news, and speeches</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/blogs.html">Blogs</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/consultations.html">Consultations  &amp; responses</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/publications.html">Our publications</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/publications/2023-24-annual-report.html">Our 2023-24 Annual Report</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/publications/annual-reports-and-enforcement-reports.html">Annual Reports, Enforcement Reports and Regulatory Decisions Reports</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/publications/strategic-and-business-plans-listing.html">Archive of Strategic and Business Plans</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/resource-library.html">Our Resource Library</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/research-and-statistics.html">Research and statistics</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/research-and-statistics/statistics-about-the-bar.html">Statistics about the Bar</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/research-and-statistics/bsb-research-reports.html">Our research reports</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/our-events.html">Attend one of our events</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/our-events/the-role-of-chambers.html">The role of chambers</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/contact-our-press-office.html">Contact our Press Office</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/contact-our-press-office/comment-on-conduct-reports-and-enforcement-action.html">Comment on conduct reports and enforcement action </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/contact-our-press-office/use-of-the-bsb-logo-and-images.html">Use of the BSB logo and images</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/news-publications/contact-our-press-office/communications-and-public-engagement-strategy.html">Communications and Public Engagement Strategy 2022-2025</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="site-head-nav-dropdown  has-submenu js-subnav-menu">
+			<a href="https://www.barstandardsboard.org.uk/about-us.html">About us</a>
+			
+				<ul class="site-head-subnav">
+					
+
+
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do.html">The work we do</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/education-and-training.html">The education and training of barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/standards-of-conduct.html">Maintaining standards of barristers' conduct</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/authorising-organisations.html">Authorising organisations</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/assuring-the-competence-of-barristers.html">Assuring the competence of barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/considering-reported-concerns-about-barristers.html">Considering reported concerns about barristers</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/what-we-do/taking-enforcement-action.html">Taking enforcement action</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/who-we-regulate.html">Who we regulate</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate.html">How we regulate</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/our-governance.html">Our governance</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/our-organisational-values.html">Our organisational values</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/our-risk-based-approach.html">A risk-based approach</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/our-strategic-plan-for-2022-25.html">Strategic Plan for 2022-2025</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/our-business-plan.html">Our Business Plan for 2024-25</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/the-decisions-we-take.html">The decisions we take</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/how-we-regulate/data-and-intelligence-strategy-2024-2027.html">Data and Intelligence Strategy 2024-2027</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity.html">Equality and diversity</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/our-equality-and-diversity-objectives-and-strategy.html">Our Equality and Diversity objectives and Strategy</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/our-approach-to-reasonable-adjustments.html">Our approach to reasonable adjustments</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/race-equality-taskforce.html">Race Equality Taskforce </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/anti-racist-statement.html">Anti-racist statement</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/board-and-staff-diversity-report.html">Board and staff diversity reports</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/religion-and-belief-taskforce.html">Religion and Belief Taskforce </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/disability-taskforce.html">Disability Taskforce </a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/international-women-s-day-2023.html">International Women's Day 2023</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/international-women-s-day-2024.html">International Women's Day 2024</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity/anti-racist-strategy-2024-2027-for-bsb-people.html">Anti-Racist Strategy 2024-2027 for BSB people</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/working-with-others.html">Working with others</a>
+			
+		</li>
+	
+		
+
+		
+		<li class="  has-submenu">
+			<a href="https://www.barstandardsboard.org.uk/about-us/working-for-us.html">Working for the BSB</a>
+			
+				<ul class="">
+					
+
+
+	
+		
+
+		
+		<li class="  ">
+			<a href="https://www.barstandardsboard.org.uk/about-us/working-for-us/current-vacancies.html">Current vacancies</a>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+
+				</ul>
+			
+		</li>
+	
+
+						<li class="site-head-nav-dropdown more-menu has-submenu js-subnav-menu"><a href="#">More...<span class="font-icon-keyboard_arrow_down"></span></a>
+							<ul class="site-head-subnav"></ul>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="top-nav hidden-md hidden-lg" role="navigation">
+					
+
+
+	<ul class="list-unstyled">
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record.html" title="Search a barrister's record">Search a barrister's record</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/for-the-public/reporting-concerns.html" title="Report a concern">Report a concern</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/contact-us.html" title="Contact us">Contact us</a></li>
+		
+			<li>
+
+<a href="https://www.barstandardsboard.org.uk/asset/B3CBC808%2DCB66%2D4E04%2DA7BB149B9B8A7F31/" title="Make a Payment">Make a Payment</a></li>
+		
+			<li>
+
+<a href="https://www.mybar.org.uk/login.html" title="My Bar" target="_blank">My Bar</a></li>
+		
+			<li>
+
+<a href="https://www.legalchoices.org.uk/" title="Legal Choices" target="_blank">Legal Choices</a></li>
+		
+
+		<li class="mod-search">
+			<div class="searh-form">
+				<form action="https://www.barstandardsboard.org.uk/page-types/site_search/searchSite/">
+					<input type="hidden" name="header" value="1">
+					<input type="text" name="q" placeholder="Search here...">
+
+					<div class="search-close">×</div>
+					<button class="search-btn" type="submit"><span class="font-icon-search"></span></button>
+				</form>
+			</div>
+			<a href="" class="search-open-btn"><span class="font-icon-search"></span></a>
+		</li>
+		
+			<li><a href="#reciteme-launch" class="reciteme">Accessibility</a></li>
+		
+	</ul>
+
+				</nav>
+			</div>
+
+		</div>
+
+	</header>
+
+
+			<div class="main-wrapper">
+
+				
+
+				
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+
+	<div class="contents">
+		
+	<nav class="breadcrumb-container" aria-label="breadcrumb">
+		<div class="container">
+			<ol class="breadcrumb small">
+				<li class="first">You are here</li>
+				
+
+	
+		
+
+		<li><a href="https://www.barstandardsboard.org.uk/">Homepage</a></li>
+	
+		
+
+		<li><a href="https://www.barstandardsboard.org.uk/for-the-public.html">For the public</a></li>
+	
+		
+
+		<li><a href="https://www.barstandardsboard.org.uk/for-the-public/search-a-barristers-record.html">Search a barrister's record</a></li>
+	
+		
+
+		<li class="active" aria-current="page">Register of BSB entities</li>
+	
+
+			</ol>
+		</div>
+	</nav>
+
+
+		
+
+
+	<div class="site-banner bg-grey-light" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="site-banner-container">
+						<div class="site-banner-detail">
+							<h1>Register of BSB entities</h1>
+							
+								<p>From this page, you can download a register of the specialist legal services businesses which we regulate. </p>
+							
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-12 entry">
+						<p>As well as regulating individual barristers, we also regulate a number of specialist legal services businesses known as “entities”.&nbsp;</p>
+
+<p>From this page, you can download a register of the entities which we regulate.&nbsp;</p>
+
+<p>Most of the entities that we regulate specialise in the type of work typically undertaken by barristers such as advocacy, litigation and specialist legal advice. &nbsp;&nbsp;</p>
+
+<p>We authorise two types of entities:</p>
+
+<p><strong>BSB Authorised Bodies are fully owned and managed by authorised individuals (lawyers with current practising certificates</strong></p>
+
+<p><strong>BSB Licensed Bodies also referred to as Alternative Business Structures ("ABS") are owned and managed jointly by authorised individuals and others.&nbsp;</strong>These could include a mix of other professionals, or family-owned businesses.&nbsp;</p>
+
+<p>Other legal regulators such as the&nbsp;<a href="https://www.sra.org.uk/home/home.page">Solicitors Regulation Authority (SRA)</a>&nbsp;also regulate legal services businesses such as ABSs. You should always make sure that the legal services business that you are dealing with is properly regulated and by whom.</p>
+
+<div>
+<div id="_com_1" language="JavaScript">
+
+
+	
+		
+
+<a href="https://www.barstandardsboard.org.uk/asset/C4908176%2D1788%2D4908%2DAA9C726705FBE672/" class="btn bg-button mod-cta">DOWNLOAD THE LATEST REGISTER OF BSB ENTITIES</a>
+	
+
+
+</div>
+</div>
+
+
+						
+					</div>
+
+					
+						<div class="col-xs-12 col-md-12">
+					
+
+							
+
+					
+						</div>
+					
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+
+
+
+			</div>
+
+			
+
+
+	<div class="sub-footer small">
+		<div class="container">
+			<div class="sub-footer-top border-top">
+				<div class="footer-widget-group">
+					<div class="footer-widget border-right border-yellow pr-50 mb-20">
+						<div class="media">
+							<div class="media-left mr-30 hidden-xxs">
+								<div class="footer-logo"><a href="/"><img src="/assets/img/BSB-logo-Caption.svg" width="142" alt=""></a></div>
+							</div>
+							<div class="media-body">Bar Standards Board<br>
+289-293 High Holborn<br>
+London<br>
+WC1V 7HZ</div>
+						</div>
+					</div>
+					<div class="footer-widget border-x border-yellow pl-50 mb-20 hidden-sm hidden-xs">
+						<a href="https://www.barstandardsboard.org.uk/about-us.html">About us</a><br>
+<a href="https://www.barstandardsboard.org.uk/about-us/equality-and-diversity.html">Equality and diversity</a><br>
+<a href="https://www.barstandardsboard.org.uk/about-us/working-with-others.html">Working with others</a><br>
+<a href="https://www.barstandardsboard.org.uk/about-us/working-for-us.html">Working for the BSB</a>
+					</div>
+					<div class="footer-widget border-left border-md-top d-flex align-items-center pl-50 pl-md-20 py-md-20 mb-20 mb-md-0 hidden-sm hidden-xs">
+						
+						
+							<div class="media align-items-center mb-0">
+								<div class="media-left mr-10">
+									<div class="media-left"><span class="font-icon-phone1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span></div>
+								</div>
+								<div class="media-body"><p class="mb-0"><a href="https://www.barstandardsboard.org.uk/contact-us.html">Contact Us</a></p></div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-footer-bottom border-top border-bottom pt-20 pb-10 pt-lg-10 pb-0">
+			<div class="container">
+				<div class="row d-md-block d-flex align-items-center">
+					<div class="col-sm-5 col-md-4">
+						
+							<ul class="site-social-links list-inline mb-0">
+								
+									<li>
+
+<a href="https://en-gb.facebook.com/barstandardsboard/" title="Facebook" target="_blank"><span class="font-icon-facebook-nobg"></span></a></li>
+								
+									<li>
+
+<a href="https://www.linkedin.com/company/the-bar-standards-board" target="_blank"><span class="font-icon-linkedin-nobg"></span></a></li>
+								
+									<li>
+
+<a href="https://www.youtube.com/@TheBarStandardsBoard/" target="_blank"><span class="font-icon-youtube-nobg"></span></a></li>
+								
+									<li>
+
+<a href="https://www.twitter.com/barstandards" target="_blank"><span class="font-icon-twitter-nobg"></span></a></li>
+								
+							</ul>
+						
+					</div>
+					<div class="col-sm-7 col-md-8 pt-md-20 border-md-top">
+						<nav class="site-footer-nav" role="navigation">
+							
+								<ul class="list-inline">
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/terms-and-conditions.html" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/privacy-statement.html" title="Privacy Statement">Privacy Statement</a></li>
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/cookies-statement.html" title="Cookies Statement">Cookies Statement</a></li>
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/complain-about-us.html" title="If you have a complaint about us">If you have a complaint about us</a></li>
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/how-to-access-information.html">How to access information</a></li>
+									
+										<li>
+
+<a href="https://www.barstandardsboard.org.uk/accessibility-statement.html">Accessibility Statement</a></li>
+									
+								</ul>
+							
+						</nav>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="subhead" class="site-footer small">
+		<div class="container">
+			<div class="row">
+				
+
+				<div class="col-xs-12 col-sm-6">
+					<p class="mb-xs-10">© 2024 Bar Standards Board. All rights reserved.</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 developer">
+					<div class="site-footer-developer">
+						<p>Design &amp; Development by <a href="https://www.pixl8.co.uk/" target="_blank">Pixl8</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+		</div>
+
+		
+
+
+
+		<script>cfrequest={"dismissEndPoint":"https://www.barstandardsboard.org.uk/Announcement/dismissAnnouncement/"}</script>
+<script src="/assets/js/lib/modernizr-2.6.2.min.js" async="true"></script>
+<script src="/assets/js/lib/jquery-1.12.4.min.js"></script>
+<script src="/assets/js/lib/bootstrap.min.js"></script>
+<!--[if lte IE 9]><script src="/assets/js/lib/placeholders.jquery.min.js"></script><![endif]-->
+<script src="/assets/js/core/_0d916069.core.min.js"></script>
+
+
+		
+
+	
+
+	
+</body></html>
