@@ -6,7 +6,7 @@ function Banners() {
   return (
     <section
       id="home"
-      className="w-full flex flex-col gap-10 md:gap-5 lg:gap-0 lg:flex-row items-center border-b border-b-black font-titleFont"
+      className="home w-full flex flex-col gap-10 md:gap-5 lg:gap-0 lg:flex-row items-center border-b border-b-black font-titleFont"
       style={{ height: "90vh", margin: "0" }}
     >
       <LeftBanner />
