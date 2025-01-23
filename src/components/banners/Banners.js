@@ -11,7 +11,7 @@ function Banners() {
     >
       <LeftBanner />
 
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative  md:hidden lgl:block">
+      <div className="w-full lgl:w-1/2 flex justify-center items-center relative  md:hidden lgl:block sm:hidden ">
         <img
           className="sm:pb-20 lgl:w-[80%]  object-contain  -scale-x-100 z-10"
           style={{ transform: "scale(1.2) scaleX(-1)" }}
