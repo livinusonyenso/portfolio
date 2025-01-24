@@ -46,12 +46,12 @@ function Navbar() {
             <div className="flex flex-col gap-8">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nobis, nemo temporibus. Explicabo earum, labore magnam laborum
                   nam vero tenetur aspernatur vitae neque autem temporibus?
                   Debitis error ipsum aut culpa amet.
-                </p>
+                </p> */}
               </div>
               <ul className="flex flex-col gap-4 py-2 relative">
                 {navLinkData.map((navLink) => (
