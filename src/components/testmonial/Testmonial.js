@@ -141,7 +141,7 @@ function Testmonial() {
           {/* <TestmonialOne/> */}
           <TestmonialOne/>
 
-          <TestmonialTwo/>
+          {/* <TestmonialTwo/> */}
           <TestmonialOne/>
          
         </Slider>

@@ -1,5 +1,10 @@
 @media (max-width: 374px) {
-    .home {
+    .homebanner {
       display: none;
+    }
+  }
+  @media (max-width: 374px) {
+    .homebannerImg {
+      height: 124vh,
     }
   }

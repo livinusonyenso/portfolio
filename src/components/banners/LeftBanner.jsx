@@ -29,7 +29,7 @@ function LeftBanner() {
           <span className="text-designColor capitalize">LIVINUS EKENE</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          <div className="w-[100%] h-[100%] flex items-center">
+          <div className="w-[100%] h-[100%] flex items-center ">
           <span className="inline-block min-w-[250px] sm:text-[23px] lgl:text-[25px]">a {text}</span>
           <Cursor
             cursorBlinking="false"
@@ -37,9 +37,10 @@ function LeftBanner() {
             cursorColor="#ff014f"
           />
           </div>
+
          
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide ">
           Livinus is a passionate Frontend Developer with a strong foundation in
           HTML, CSS, JavaScript, and React. With experience in building
           responsive and user-friendly web applications, Livinus focuses on

@@ -6,12 +6,12 @@ function Banners() {
   return (
     <section
       id="home"
-      className="home w-full flex flex-col gap-10 md:gap-5 lg:gap-0 lg:flex-row items-center border-b border-b-black font-titleFont"
+      className="homebannerImg w-full flex flex-col gap-10 md:gap-5 lg:gap-0 lg:flex-row items-center border-b border-b-black font-titleFont"
       style={{ height: "90vh", margin: "0" }}
     >
       <LeftBanner />
 
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative  md:hidden lgl:block sm:hidden xs:hidden">
+      <div className=" homebanner w-full lgl:w-1/2 flex justify-center items-center relative  md:hidden lgl:block sm:hidden xs:hidden">
         <img
           className="sm:pb-20 lgl:w-[80%]  object-contain  -scale-x-100 z-10"
           style={{ transform: "scale(1.2) scaleX(-1)" }}
